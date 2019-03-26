@@ -1,0 +1,57 @@
+/*
+    Style sheet for the Psychic Game
+*/
+
+/*
+    Default settings
+*/
+* {
+    background-color: lightgray;
+    box-sizing: border-box;
+    font-family: Roboto, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+    color: #333333;
+    line-height: 1.5;
+    /* The below is temporary for debugging */
+    /* border: 1px solid red; */
+}
+
+h1,
+h2 {
+    font-size: 28px;
+    margin: 20px;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 24px;
+}
+
+p {
+    margin: 20px;
+    font-weight: bold;
+}
+
+#score-board {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 20px;
+}
+
+li {
+    margin: 10px;
+    margin-left: 20px;
+}
+
+#game-result {
+    height: 24px;
+}
+#message {
+    height: 24px;
+}
+
+#exit-button {
+    margin: 20px;
+    background-color: darkgrey;
+}

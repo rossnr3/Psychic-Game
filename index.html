@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<!-- Psychic Game Assignment -->
+
+    <head>
+        <meta charset="UTF-8">
+        <title>Psychic Game</title>
+        <!-- Stylesheets -->
+        <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+        <link rel='stylesheet' href="https://fonts.googleapis.com/css?family=Roboto">
+        <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+        <!-- JavaScript -->
+        <script src="assets/javascript/game.js" defer></script>
+    </head>
+
+    <body>
+        <h1>The Psychic Game</h1>
+        <h2>Guess what letter I'm thinking of:</h2>
+
+        <!-- Elements modified during game play -->
+        <ul id="score-board">
+            Scoreboard
+            <li id="wins">Wins: 0</li>
+            <li id="losses">Losses: 0</li>
+            <li id="guesses-left">Guesses Left: 10</li>
+        </ul>
+
+        <h2>Your Guesses so far:</h2>
+        <p id="guesses-made">None</p>
+
+        <div id="outputs">
+            <h2 id="game-result"></h2>
+
+            <h2 id="message"></h2>
+
+            <button id="exit-button">Exit Game</button>
+        </div>
+
+    </body>
+
+</html>
